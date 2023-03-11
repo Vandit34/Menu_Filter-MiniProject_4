@@ -1,0 +1,62 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+section
+{
+    height: 800px;
+}
+#options
+{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+
+position: relative;
+left: 30%;
+top: 10%;
+}
+.option
+{
+    list-style: none;
+    font-size: 20px;
+height: 50px;
+width: 150px;
+border-radius: 20px;
+background-color: fuchsia;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#grid
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    grid-template-columns: repeat(2,auto);
+    position: relative;
+
+top: 20%; 
+}
+.grid_option 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 448px;
+background-color: greenyellow;
+margin: 15px;
+border-radius: 59px;
+}
+.option:hover
+{
+    cursor: pointer;
+}
+.click
+{
+    background-color: greenyellow;
+    color: fuchsia;
+}
